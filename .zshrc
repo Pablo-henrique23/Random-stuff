@@ -119,7 +119,7 @@ fi
 
 
 DIR=$'%B%F{yellow}%(6~.%-1~/…/%4~.%5~)%F{green}'
-NAME=$'%F{blue}  $HOST%F{magenta}Zkbm' # CHANGE ME
+NAME=$'%F{blue}  $HOST%F{magenta}CHANGE ME' # CHANGE ME
 ICON=' ' # CHANGE ME
 
 if [ "$color_prompt" = yes ]; then
