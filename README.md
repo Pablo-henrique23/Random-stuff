@@ -2,7 +2,7 @@
 Coisas aleatorias que me poderao ser uteis no futuro
 
 ## Custom .zshrc
-Um terminal zsh customizado. Design feito para o Parrot OS, mas facilmente alteravel para outros sistemas.
+Um terminal [zsh](https://ohmyz.sh/) customizado. Design feito para o Parrot OS, mas facilmente alteravel para outros sistemas.
 Requer fonte do [NerdFonts](https://www.nerdfonts.com/) instalada e aplicada para os glifos funcionarem. Os glifos tambem sao obtidos nesse site.
 Cheque as linhas contendo ```# CHANGE ME``` e as altere conforme a sua vontade.
 Lembre-se de alterar o nome (NAME), o icone do sistema (ICON) e o host caso queira (HOST).
