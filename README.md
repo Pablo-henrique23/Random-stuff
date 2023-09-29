@@ -13,3 +13,4 @@ chsh
 /bin/zsh
 ```
 ![Captura de tela em 2023-09-17 23-24-27](https://github.com/zecabum/Random-stuff/assets/105394456/910da654-da60-4ebc-ab75-477a81a483ff)
+Fonte usada: AnonymicePro Nerd Font
