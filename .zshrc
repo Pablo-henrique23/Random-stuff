@@ -17,6 +17,9 @@ setopt notify              # report the status of background jobs immediately
 setopt numericglobsort     # sort filenames numerically when it makes sense
 setopt promptsubst         # enable command substitution in prompt
 
+export PATH=":/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/usr/share/games:/usr/local/sbin:/usr/sbin:/sbin:/home/zkbm/.local/bin:/snap/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games"
+#CHANGE ME
+
 WORDCHARS=${WORDCHARS//\/} # Don't consider certain characters part of the word
 
 # hide EOL sign ('%')
@@ -119,7 +122,7 @@ fi
 
 
 DIR=$'%B%F{yellow}%(6~.%-1~/…/%4~.%5~)%F{green}'
-NAME=$'%F{blue}  $HOST%F{magenta}CHANGE ME' # CHANGE ME
+NAME=$'%F{blue}  $HOST%F{magenta}Zkbm' # CHANGE ME
 ICON=' ' # CHANGE ME
 
 if [ "$color_prompt" = yes ]; then
