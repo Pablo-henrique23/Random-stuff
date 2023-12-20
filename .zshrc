@@ -90,8 +90,7 @@ fi
 
 IP1=$(ip -4 addr | grep -v 127.0.0.1 | grep -v secondary | grep eth0 | grep -Po "inet \K[\d.]+") # Get normal interface, may need to be changed
 IP2=$(ip -4 addr | grep -v 127.0.0.1 | grep -v secondary | grep tun0 | grep -Po "inet \K[\d.]+") # Get VPN IP if connected
-#IP3=$(ip -4 addr | grep -v 127.0.0.1 | grep -v secondary | grep wlan0 | grep -Po "inet \K[\d.]+") # Get Wireless IP if connected
-IP3=$(curl -s https://ipinfo.io/ip)
+IP3=$(ip -4 addr | grep -v 127.0.0.1 | grep -v secondary | grep wlan0 | grep -Po "inet \K[\d.]+") # Get Wireless IP if connected
 
 # Create prompts based on which interfaces are found
 if [ $IP1 ]; then
@@ -110,14 +109,19 @@ if [ $IP3 ]; then
     WIFI="%F{green}─🮤󰀂  %F{cyan}$IP3%F{green}🮥" #CHANGE ME (ICON)
 #
 else
-    WIFI=""
+    IP4=$(curl -s https://ipinfo.io/ip)
+    if [ $IP4 ]; then
+        WIFI="%F{green}─🮤󰀂  %F{cyan}$IP4%F{green}🮥"
+    else
+        WIFI=""
+    fi
 fi
 
 if [ "$EUID" = 0 ]; then
     HOST=$'%F{red}root%F{yellow}@'
 else
     HOST="" # CHANGE ME
-    #HOST=$'%F{cyan}'$USER'%F{yellow}@'
+#    HOST=$'%F{cyan}'$USER'%F{yellow}@'
 fi
 
 
@@ -249,3 +253,7 @@ if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
 
+
+
+# Created by `pipx` on 2023-11-20 23:35:47
+export PATH="$PATH:/home/pablo/.local/bin"
