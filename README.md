@@ -16,8 +16,9 @@ chsh
 Fonte usada: AnonymicePro Nerd Font
 
 ## Custom .zshrc (Arch-Linux Version)
-Foi nomeado como `.zshrcArch` para diferenciação no repositório, mas deve ser colocado no sistema como `.zshrc`. Fonte igual ao anterior com apenas pequenas alterações no código.
+Foi nomeado como `.zshrcArch` para diferenciação no repositório, mas deve ser colocado no sistema como `.zshrc`. Código igual ao anterior com algumas pequenas alterações no.
 
 ![image](https://github.com/Pablo-henrique23/Random-stuff/assets/105394456/ac842e18-cf7c-4607-9a27-429839a069e2)
+Fonte usada: Hack Bold - 10pt
 
 
