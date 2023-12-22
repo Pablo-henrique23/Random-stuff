@@ -111,13 +111,13 @@ fi
 if [ "$EUID" = 0 ]; then
     HOST=$'%F{red}root%F{yellow}@'
 else
-    HOST="" # CHANGE ME
-#    HOST=$'%F{cyan}'$USER'%F{yellow}@'
+#    HOST="" # CHANGE ME
+    HOST=$'%F{cyan}'$USER'%F{yellow}@'
 fi
 
 
 DIR=$'%B%F{yellow}%(6~.%-1~/…/%4~.%5~)%F{green}'
-NAME=$'%F{blue}  $HOST%F{magenta}Zkbm' # CHANGE ME
+NAME=$'%F{magenta}  $HOST%F{blue}Arch' # CHANGE ME
 ICON='󰣇 ' # CHANGE ME
 
 if [ "$color_prompt" = yes ]; then
@@ -125,7 +125,7 @@ if [ "$color_prompt" = yes ]; then
 	# Assemble the prompt in pieces for readability
 	LINE1=$'%F{green}┌──🮤'$NAME'%F{green}🮥'$LOCAL$VPN$WIFI
 	LINE2=$'\n├──🮤%F{yellow}  '$DIR'🮥'
-	LINE3=$'\n└─%F{blue}'$ICON 
+	LINE3=$'\n└─%F{blue}$ICON %F{white}'
 
 	TIME=$'%t'
 
@@ -238,8 +238,8 @@ alias la='ls -A'
 alias l='ls -CF'
 
 # enable auto-suggestions based on the history
-if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
-    . /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+if [ -f /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
+    . /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
     # change suggestion color
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
