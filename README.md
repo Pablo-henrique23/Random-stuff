@@ -18,4 +18,5 @@ Fonte usada: AnonymicePro Nerd Font
 ## Custom .zshrc (Arch-Linux Version)
 Foi nomeado como `.zshrcArch` para diferenciação no repositório, mas deve ser colocado no sistema como `.zshrc`. Fonte igual ao anterior com apenas pequenas alterações no código.
 
-![image](https://github.com/Pablo-henrique23/Random-stuff/assets/105394456/72b137bc-80cd-4417-800d-381da0b0ffb8)
+![image](https://github.com/Pablo-henrique23/Random-stuff/assets/105394456/074df99e-9898-49a3-99f5-5a3645082609)
+
