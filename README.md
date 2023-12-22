@@ -1,8 +1,8 @@
 # Random-stuff
 Coisas aleatorias que me poderao ser uteis no futuro
 
-## Custom .zshrc
-Um terminal [zsh](https://ohmyz.sh/) customizado. Design feito para o Parrot OS, mas facilmente alteravel para outros sistemas.
+## Custom .zshrc (Parrot OS Version)
+Um terminal [zsh](https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH) customizado. Design feito para o Parrot OS, mas facilmente alteravel para outros sistemas.
 Requer fonte do [NerdFonts](https://www.nerdfonts.com/) instalada e aplicada para os glifos funcionarem. Os glifos tambem sao obtidos nesse site.
 Cheque as linhas contendo ```# CHANGE ME``` e as altere conforme a sua vontade.
 Lembre-se de alterar o nome (NAME), o icone do sistema (ICON) e o host caso queira (HOST).
@@ -14,3 +14,7 @@ chsh
 ```
 ![Captura de tela em 2023-09-17 23-24-27](https://github.com/zecabum/Random-stuff/assets/105394456/910da654-da60-4ebc-ab75-477a81a483ff)
 Fonte usada: AnonymicePro Nerd Font
+
+## Custom .zshrc (Arch-Linux Version)
+Nomeado como `.zshrcArch` para diferenciação. Fonte igual ao anterior com apenas pequenas alterações no código.
+![image](https://github.com/Pablo-henrique23/Random-stuff/assets/105394456/72b137bc-80cd-4417-800d-381da0b0ffb8)
