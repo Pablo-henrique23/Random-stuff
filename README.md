@@ -21,4 +21,5 @@ Foi nomeado como `.zshrcArch` para diferenciação no repositório, mas deve ser
 ![image](https://github.com/Pablo-henrique23/Random-stuff/assets/105394456/ac842e18-cf7c-4607-9a27-429839a069e2)
 Fonte usada: Hack Bold - 10pt
 
-
+## .config
+Pasta .config do Arch Linux que eu uso/usei. Colocada nesse repositório para caso de necessidade de backup de algo.
