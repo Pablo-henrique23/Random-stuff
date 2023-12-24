@@ -23,6 +23,7 @@ Foi nomeado como `.zshrcArch` para diferenciação no repositório, mas deve ser
 
 ![image](https://github.com/Pablo-henrique23/Random-stuff/assets/105394456/0babf00a-bb0c-475a-bb1d-b6dd34adbeeb)
 Fonte usada: Hack Bold - 10pt
+
 **Cores alteradas com o tema Vivid-Dark-Konsole.colorscheme do Konsole**
 
 ## .config
