@@ -14,6 +14,7 @@ chsh
 ```
 ![Captura de tela em 2023-09-17 23-24-27](https://github.com/zecabum/Random-stuff/assets/105394456/910da654-da60-4ebc-ab75-477a81a483ff)
 Fonte usada: AnonymicePro Nerd Font
+Nota: No print, há uma pequena diferença de cores entre o "🮥" de LINE1 e LINE2, entretanto, isso foi resolvido no código (%b na linha 119, na variavel DIR)
 
 ## Custom .zshrc (Arch-Linux Version)
 Foi nomeado como `.zshrcArch` para diferenciação no repositório, mas deve ser colocado no sistema como `.zshrc`. Código igual ao anterior com algumas pequenas alterações no.
