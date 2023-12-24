@@ -125,7 +125,7 @@ else
 fi
 
 
-DIR=$'%B%F{yellow}%(6~.%-1~/…/%4~.%5~)%F{green}'
+DIR=$'%B%F{yellow}%(6~.%-1~/…/%4~.%5~)%b%F{green}'
 NAME=$'%F{blue}  $HOST%F{magenta}Zkbm' # CHANGE ME
 ICON=' ' # CHANGE ME
 
