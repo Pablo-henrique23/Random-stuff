@@ -18,8 +18,9 @@ Fonte usada: AnonymicePro Nerd Font
 ## Custom .zshrc (Arch-Linux Version)
 Foi nomeado como `.zshrcArch` para diferenciação no repositório, mas deve ser colocado no sistema como `.zshrc`. Código igual ao anterior com algumas pequenas alterações no.
 
-![image](https://github.com/Pablo-henrique23/Random-stuff/assets/105394456/ac842e18-cf7c-4607-9a27-429839a069e2)
+![image](https://github.com/Pablo-henrique23/Random-stuff/assets/105394456/0babf00a-bb0c-475a-bb1d-b6dd34adbeeb)
 Fonte usada: Hack Bold - 10pt
+**Cores alteradas com o tema Vivid-Dark-Konsole.colorscheme do Konsole**
 
 ## .config
 Pasta .config do Arch Linux que eu uso/usei. Colocada nesse repositório para caso de necessidade de backup de algo.
