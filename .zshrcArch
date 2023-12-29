@@ -3,6 +3,14 @@ HISTFILE=~/.zsh_history
 HISTSIZE=1000
 SAVEHIST=1000
 
+bindkey -e
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/pablo/.zshrc'
+
+autoload -Uz compinit
+compinit
+# Lines configured by zsh-newuser-install
 setopt hist_expire_dups_first # delete duplicates first when HISTFILE size exceeds HISTSIZE
 setopt hist_ignore_dups       # ignore duplicated commands history list
 setopt hist_ignore_space      # ignore commands that start with space
@@ -119,6 +127,9 @@ fi
 DIR=$'%B%F{yellow}%(6~.%-1~/…/%4~.%5~)%b%F{green}'
 NAME=$'%F{magenta}  $HOST%F{blue}Arch%F{reset}%f' # CHANGE ME
 ICON='%F{blue}󰣇' # CHANGE ME
+
+# Project page: https://gitlab.com/phoneybadger/pokemon-colorscripts#on-other-distros-and-macos
+pokemon-colorscripts -r --no-title -s
 
 if [ "$color_prompt" = yes ]; then
 
