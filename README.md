@@ -25,6 +25,3 @@ Foi nomeado como `.zshrcArch` para diferenciação no repositório, mas deve ser
 Fonte usada: BitstromWera Nerd Font - 10pt
 
 **Cores alteradas com o tema Vivid-Dark-Konsole.colorscheme do Konsole**
-
-## .config
-Pasta .config do Arch Linux que eu uso/usei. Colocada nesse repositório para caso de necessidade de backup de algo.
