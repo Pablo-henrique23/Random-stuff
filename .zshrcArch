@@ -128,15 +128,15 @@ DIR=$'%B%F{yellow}%(6~.%-1~/…/%4~.%5~)%b%F{green}'
 NAME=$'%F{magenta}  $HOST%F{blue}Arch%F{reset}%f' # CHANGE ME
 ICON='%F{blue}󰣇' # CHANGE ME
 
-# Project page: https://gitlab.com/phoneybadger/pokemon-colorscripts#on-other-distros-and-macos
 pokemon-colorscripts -r --no-title -s
+
 
 if [ "$color_prompt" = yes ]; then
 
         # Assemble the prompt in pieces for readability
         LINE1=$'%F{green}┌──🮤'$NAME'%F{green}🮥'$LOCAL$VPN$WIFI
         LINE2=$'\n├──🮤%F{yellow}  '$DIR'🮥'
-        LINE3=$'\n└─%B$ICON %F{reset}'
+        LINE3=$'\n└─%B$ICON %F{reset}%b'
 
         TIME=$'%t'
 
@@ -254,3 +254,8 @@ if [ -f /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh ]; th
     # change suggestion color
     ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=#999'
 fi
+
+
+
+
+# End of lines added by compinstall
