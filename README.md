@@ -21,8 +21,8 @@ Nota: No print, há uma pequena diferença de cores entre o "🮥" de LINE1 e LI
 ## Custom .zshrc (Arch-Linux Version)
 Foi nomeado como `.zshrcArch` para diferenciação no repositório, mas deve ser colocado no sistema como `.zshrc`. Código igual ao anterior com algumas pequenas alterações.
 
-![image](https://github.com/Pablo-henrique23/Random-stuff/assets/105394456/0babf00a-bb0c-475a-bb1d-b6dd34adbeeb)
-Fonte usada: Hack Bold - 10pt
+![image](https://github.com/Pablo-henrique23/Random-stuff/assets/105394456/ec86cbcc-88a9-43b8-80e2-ff6b19cb27b1)
+Fonte usada: BitstromWera Nerd Font - 10pt
 
 **Cores alteradas com o tema Vivid-Dark-Konsole.colorscheme do Konsole**
 
